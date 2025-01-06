@@ -33,7 +33,7 @@ export default function Home() {
           Explore our GitHub repository
         </a>
         <a
-          href="https://dev.to/vercel/announcing-nextjs-13-4j7k"
+          href="https://nextjs.cloudinator.cloud/"
           className="
             px-4
             py-2
