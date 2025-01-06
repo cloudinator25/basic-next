@@ -51,7 +51,7 @@ export default function Home() {
             focus:ring-offset-white
           "
         >
-          Check out our latest blog post
+          Check out our latest blog posts
         </a>
       </div>
     </div>
