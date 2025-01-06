@@ -30,7 +30,7 @@ export default function Home() {
             focus:ring-offset-white
           "
         >
-          Explore our GitHub repository
+          Explore our GitHub repositorys
         </a>
         <a
           href="https://nextjs.cloudinator.cloud/"
