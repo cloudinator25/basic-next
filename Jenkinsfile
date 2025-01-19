@@ -22,14 +22,6 @@ pipeline {
             }
         }
 
-        stage('Update Dependencies') {
-            steps {
-                script {
-                    updateDependencies()
-                }
-            }
-        }
-
         stage('Build') {
             steps {
                 sh 'npm run build'
