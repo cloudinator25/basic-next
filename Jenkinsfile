@@ -22,6 +22,12 @@ pipeline {
             }
         }
 
+        stage('Install Tailwind') {
+            steps {
+                sh 'npm install tailwindcss postcss autoprefixer --save-dev --force' // or 'yarn install'
+            }
+        }
+
         stage('Build') {
             steps {
                 sh 'npm run build'
