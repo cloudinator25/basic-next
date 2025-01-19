@@ -22,23 +22,6 @@ pipeline {
             }
         }
 
-        stage('Build') {
-            steps {
-                sh 'npm run build'
-            }
-        }
-
-        stage('Test') {
-            steps {
-                sh 'npm run test' // or 'yarn test'
-            }
-        }
-
-        stage('Deploy') {
-            steps {
-                sh 'npm run start' // or 'yarn start'
-            }
-        }
     }
 
     post {
